@@ -1,0 +1,62 @@
+.page {
+   box-sizing: border-box;
+   background: #6bc747;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    gap: 25px;
+
+}
+.title {
+    color: bisque;
+
+}
+.input-one {
+    width: 100%;
+    height: 40px;
+   
+}
+.input-two {
+    display: block;
+    width: 100%;
+    height: 40px;
+
+  
+    
+
+}
+.box {
+    display: flex;
+}
+.inc {
+    width: 50%;
+    height: 30px;
+    display: block;
+    background-color: rgb(112, 218, 112);
+}
+.dec {
+    width: 50%;
+    display: block;
+    background-color: rgb(218, 142, 112);
+
+}
+.result {
+    display: block;
+    width: 100%;
+}
+.result-input {
+    width: 100%;
+    border: 2px solid white;
+    font-size: 25px;
+    color: bisque;
+}
